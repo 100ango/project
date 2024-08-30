@@ -1,0 +1,111 @@
+
+html,body{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+video{
+    border: 1em solid purple;
+    border-radius: 1rem;
+    box-shadow: 0 0.1em 0.2em brga(0,0,0,0.2);
+    width: 500px;
+    margin-left: 5em;
+}
+b {
+    color: purple;
+}
+a {
+    text-decoration: none;
+    color: greenyellow;
+}
+h2 {
+    color: purple;
+} 
+.top-section {
+    position: relative;
+    margin-top: 1em;
+}
+
+
+.clip {
+    float: right;
+}
+.page-header > section{
+    position: relative;
+    color: inherit;
+    padding: 0.2em;
+    background-color: purple;
+}
+.page-header nav li{
+    text-align: center;
+    float: left;
+    margin-right: 3rem;
+    padding-bottom: 0.2em;
+}
+.page-header nav li:first-child{
+    margin-left: 3rem;
+}
+.page-header nav{
+    font-family: sans-serif;
+}
+
+.logo {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2em;
+    display: block;
+}
+.git {
+    width: 1em;
+}
+.nav-link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.chart {
+    width: 100%; 
+    opacity: 1;
+    transform: translate(0px);
+}
+
+span {
+    font: italic;
+}
+.clearfix:before,.clearfix:after{
+	content: " ";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+table {
+    display: inline;
+}
+.code-container {
+    margin-left: 10em;
+    border-radius: 1em;
+}
+.code-wrapper {
+    margin-left: auto auto;
+    width: 25em;
+    border: 0.1em solid;
+    border-radius: 1em;
+    background-color: antiquewhite;
+}
+.copy-button {
+    width: 32px;
+}
+.check {
+    display: none;
+}
+.stats {
+    width: 26%;
+    padding-right: 2em;
+}
